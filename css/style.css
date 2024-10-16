@@ -1,0 +1,64 @@
+
+/* imports the exibição Montserrat font from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --main-color: #991eb2
+    --text-color: #000000
+
+    /* extra */
+
+    --color-01: #874cd2;
+    --color-02: #741f82;
+    --color-03: #004aad;
+    --color-04: #92144daf;
+    --color-05: #e362b26e;
+    --color-06: #930e51;
+
+}
+
+*{
+    margin: 0
+    padding: 0
+    box-sizing: border-box;
+    text-decoration: none; 
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+
+html {
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+
+}
+
+body{
+
+    background-color:var(--color-05);
+    color: var(--color-06);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 1.1rem;
+    background-color: var(--color-04);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    border: solid 1px var(--color-02); /* test */
+}
+
+.logo{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: defeault;
+}
