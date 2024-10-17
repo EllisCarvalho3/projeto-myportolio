@@ -198,29 +198,27 @@ color: var(--color-06)
 
  .cursos-container {
     display: grid;
-    gap: 1.2rem;
+    gap: 1.4rem;
  }
 
  .cursos-box {
     position: relative;
     border-radius: 0.6rem;
-    box-shadow: 0 0 0.6rem #d3257c61;
-    overflow: hidden; 
-    display: flex;
-    /* overflow: hidden; */
-    /* display: flex; */
+    box-shadow: 0 0 0.8rem #d3257c61;
+    
+    
  }
 
  .cursos-box img {
-    width: 100%;
+    width: 40%;
     transition: 0.5s ease;
  }
-
+ 
  .cursos-box img:hover {
     transform: scale(1.1);
  }
 
- .cursos-box .cusos-layer {
+ .cursos-box .cursos-layer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -228,19 +226,19 @@ color: var(--color-06)
     height: 100%;
     background: linear-gradient(transparent, var(--color-08));
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    padding: 0 4rem;
-    transform: translateY(70rem);
+    padding: 0 0.1rem;
+    transform:translateY(200rem);
     transition: 0.5s ease;
  }
 
- .cursos-box:hover .cusos-layer {
+ .cursos-box:hover .cursos-layer {
     transform: translateY(0);
  }
-
+ 
  
 /*==== button ====  */
 .btn {
