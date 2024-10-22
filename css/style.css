@@ -214,7 +214,7 @@ color: var(--color-06)
 
  .cursos-box {
     position: relative;
-    border-radius: 0.6rem;
+    border-radius: 0.9rem;
     box-shadow: 0 0 0.8rem #d3257c61;
     
     
@@ -229,26 +229,10 @@ color: var(--color-06)
     transform: scale(1.1);
  }
 
- .cursos-box .cursos-layer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, var(--color-08));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: right;
-    padding: 0 0.1rem;
-    transform:translateY(200rem);
-    transition: 0.5s ease;
+ .cursos-box e .layer:transition: 0.5s ease; {
+
  }
 
- .cursos-box:hover .cursos-layer {
-    transform: translateY(0);
- }
 
  .cursos-layer h4 {
     font-size: 1.8rem;
@@ -258,7 +242,6 @@ color: var(--color-06)
     margin: 0.2rem 0.5rem;
 
  }
-
 
  .cursos-layer a {
     display: inline;
@@ -271,6 +254,73 @@ color: var(--color-06)
 
  }
  
+form {
+    max-width: 45rem;
+    margin: 0.6rem auto;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .input-box input,
+form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: #ffdaea;
+    border-radius: 0.5rem;
+    margin: 0.4rem 0;
+
+    border: solid 1px var(--color-06); /* test */
+}
+
+form textarea {
+    resize: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: var(--color-06);
+}
+
+.social-media {
+    width: 3.5rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: solid 0.15rem var(--color-06);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--color-06);
+    margin: 1.8rem 0.5rem;
+    transition: 0.5s ease;
+    /* margin: 1.8rem 1rem 1.8rem 0; */
+}
+
+.social-media a:hover {
+    background-color: var(--color-06);
+    color: var(--color-03);
+    box-shadow: 0 0 0.3rem;
+}
+
 /*==== button ====  */
 .btn {
     display: inline-block;
@@ -289,4 +339,19 @@ color: var(--color-06)
     cursor: pointer;
 }
 /*==== button ====  */
+
+/*==== menu hamburger ====  */
+.menu-hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.barl, .bar2, .bar3 {
+    width: 2.5rem;
+    height: 0.3rem;
+    background-color: ;
+}
+/*==== menu hamburger ====  */
+
+
 
