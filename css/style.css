@@ -119,7 +119,7 @@ color: var(--color-06)
 }
 
 .home-content, .sobre-content {
-    width: 45%
+    width: 45%;
 }
 
 .home-content h1, .sobre-content h1 {
