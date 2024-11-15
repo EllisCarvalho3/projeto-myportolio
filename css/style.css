@@ -155,7 +155,7 @@ color: var(--color-06)
 }
 
 .competencias-container {
-    display: fles;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
